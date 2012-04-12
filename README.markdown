@@ -41,9 +41,11 @@ trait Monad[+M[_]] {
 }
 ```
 and now through the **scalagist glasses**:
+
 ```bash
 $ clj psy-scalagist.clj Monad.scala
 ```
+
 ```scala
 trait Monad {
   def unit(a: A): M
@@ -53,4 +55,4 @@ trait Monad {
 
 A "gistified" code is not runnable, it is not even compilable, however .... it is a lot more readable, and makes it quicker to get that gist.
 
-####_of course the fact that the Scalagist is written in a couple of lines of Clojure is an intended pun :)_
+####_of course the fact that Scalagist is written in a couple of lines of Clojure is an intended pun :)_
