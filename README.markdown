@@ -1,9 +1,9 @@
-#What is Scalagist?
+# What is Scalagist?
 
 Scalagist started as an initiative to look at Scala code through a pair of "simplify me" glasses. 
 It is especially useful when coming from other "cleaner" languages (e.g. clojure, python, ruby, groovy, etc..) or reading Scala source that was written by other people, or you, but some time ago (which usually is the same thing).
 
-#Why Would Anybody Need Such a Thing?
+## Why Would Anybody Need Such a Thing?
 
 Let's look at a simple [Monad](http://www.codecommit.com/blog/ruby/monads-are-not-metaphors) (don't worry if it sounds gibberish, just look at it as a simple trait/interface/class, etc..):
 
@@ -27,7 +27,7 @@ What is interesting that for _every_ step, besides the last one, types (e.g. con
 
 Given the rich type system and a "static typing" mindset that Scala is all about, types in Scala code _are_ important. And of course it means a lot that e.g. "unit" lifts A in M[A], but.. interestingly enough => it is **secondary** to the _understanding_ what the code does from just looking at it.
 
-#So What Can Scalagist Do?
+## So What Can Scalagist Do?
 
 Scalagist takes the above Monad, or any other Scala source, and makes it a lot quicker to get the "gist" of what the code does without a visual clutter. Let's look at the Monad one more time:
 
@@ -55,4 +55,4 @@ trait Monad {
 
 A "gistified" code is not runnable, it is not even compilable, however .... it is a lot more readable, and makes it a lot quicker to get the gist.
 
-####_of course the fact that Scalagist is written in a couple of lines of Clojure is an intended pun :)_
+#### _of course the fact that Scalagist is written in a couple of lines of Clojure is an intended pun :)_
